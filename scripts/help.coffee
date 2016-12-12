@@ -20,7 +20,7 @@ class Help
     @robot = robot
 
     @robot.respond /(справка|помощь|help)/i, @handleHelp
-    @robot.hear new RegExp(@robot.name, 'i'), @handleHelp
+    #@robot.hear new RegExp(@robot.name, 'i'), @handleHelp
 
   getDescription: () ->
     return Help.description
