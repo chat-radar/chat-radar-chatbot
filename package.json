@@ -4,11 +4,17 @@
   "license": "MIT",
   "author": "Black Roland (https://github.com/black-roland)",
   "description": "Chat Radar chat bot",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "current": "ncu --upgrade --upgradeAll"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-xmpp": "^0.2.4"
   },
-  "engines": {
-    "node": "0.10.x"
+  "devDependencies": {
+    "npm-check-updates": "^2.8.9"
   }
 }
