@@ -30,6 +30,8 @@ class Info
     msg.send Info.info.replace /hubot/ig, @robot.name
 
   handleUnknown: (msg) =>
+    return unless msg.message.text.match ///^@?#{@robot.name} .*$///i
+
     msg.send Info.unknown.replace /hubot/ig, @robot.name
 
 module.exports = (robot) ->
