@@ -15,9 +15,13 @@ class Help
     @robot.respond /(справка|помощь|команды|help)/i, @handleHelp
 
   getCommands: () ->
-    return @robot.commands.map (command) =>
+    prefix = if @robot.alias then @robot.alias else "#{@robot.name} "
+    name = @robot.name
+
+    return @robot.commands.map (command) ->
       return command
-        .replace /hubot/ig, @robot.name
+        .replace /^hubot /i, prefix
+        .replace /hubot/i, name
         .replace /--/, '-'
         .replace /\.$/, ''
 
