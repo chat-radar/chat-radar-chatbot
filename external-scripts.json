@@ -1,3 +1,4 @@
 [
-  "hubot-chat-radar"
+  "hubot-chat-radar",
+  "hubot-rate-limit"
 ]
