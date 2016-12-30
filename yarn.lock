@@ -1070,10 +1070,6 @@ hubot-discord@^1.3.0:
     discord.js "8.1.0"
     parent-require "^1.0.0"
 
-hubot-rate-limit@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/hubot-rate-limit/-/hubot-rate-limit-1.0.1.tgz#4452908f014141e0aadbc618375841f7411bd4c1"
-
 hubot-xmpp@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/hubot-xmpp/-/hubot-xmpp-0.2.4.tgz#92b77bbdc37c18165c685b797440254ae3d954b1"
