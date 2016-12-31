@@ -1070,6 +1070,12 @@ hubot-discord@^1.3.0:
     discord.js "8.1.0"
     parent-require "^1.0.0"
 
+hubot-telegram@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/hubot-telegram/-/hubot-telegram-0.1.2.tgz#4a105d49ad142746c958dd8f5c1ed4ffcd6bec13"
+  dependencies:
+    telegrambot "*"
+
 hubot-xmpp@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/hubot-xmpp/-/hubot-xmpp-0.2.4.tgz#92b77bbdc37c18165c685b797440254ae3d954b1"
@@ -2154,7 +2160,7 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-request@2, request@^2.65.0, request@^2.74.0:
+request@*, request@2, request@^2.65.0, request@^2.74.0:
   version "2.79.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
   dependencies:
@@ -2479,6 +2485,12 @@ tar@^2.0.0, tar@~2.2.1:
     block-stream "*"
     fstream "^1.0.2"
     inherits "2"
+
+telegrambot@*:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/telegrambot/-/telegrambot-0.1.1.tgz#6b19b7ada2a03648430b445c710dce5130cdf2ec"
+  dependencies:
+    request "*"
 
 text-table@~0.2.0:
   version "0.2.0"
